@@ -19,6 +19,5 @@ class ViewPagerItem1:Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        view.findViewById<TextView>(R.id.textView2)
     }
 }
