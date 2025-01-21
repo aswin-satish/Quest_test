@@ -20,7 +20,7 @@ class RecyclerViewMain : Fragment() {
         val view = inflater.inflate(R.layout.recyclerview_main,container,false)
 
         mRecyclerView = view.findViewById<RecyclerView>(R.id.recyclerview)
-        //recyclerView.layoutManager = LinearLayoutManager(this,RecyclerView.VERTICAL,false)
+        //mRecyclerView.layoutManager = LinearLayoutManager(this,RecyclerView.VERTICAL,false)
         mRecyclerView.layoutManager = LinearLayoutManager(requireContext(),RecyclerView.VERTICAL,false)
 
         mRecyclerView.adapter = mAdapter
